@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity  {
         showRewardedVideo();
         //END STEP 4 FOR REWARD VIDEO ==================================
     }
-    
+
 
     public void HomeActivityClicked(View view) {
         Intent intent = new Intent(MainActivity.this, HomeActivity.class);
