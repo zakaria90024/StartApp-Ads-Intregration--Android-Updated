@@ -1,0 +1,20 @@
+Step 01 ---- Copy dependency from 
+
+implementation 'com.startapp:inapp-sdk:4.6.+'
+
+Step 02 ---- Copy text for manifast.xml and add your apps id
+
+<!-- TODO replace YOUR_APP_ID with actual value -->
+        <meta-data
+            android:name="com.startapp.sdk.APPLICATION_ID"
+            android:value="YOUR_APP_ID" />
+
+Step 03 ----- Also add this permission in manifast.xmal
+
+<!-- Add these permissions for better ad targeting -->
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+<uses-permission android:name="android.permission.BLUETOOTH" />
+
+04 then follow this project mainactivity
